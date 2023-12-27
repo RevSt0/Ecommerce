@@ -1,0 +1,10 @@
+#common configuration shared between all applications
+configserver:
+  name: Service Registry
+  status: Connected to Consul running in Docker
+
+jhipster:
+  security:
+    authentication:
+      jwt:
+        base64-secret: YTFiNTRiZTQ5MGQzMzg5MmQwMDI2Y2E4ZWJlMTY4ZGYyNDIwNzdjMzA3MDU5NjRjYzEyOTQ4OTAwODIxYmNlMjc4ZmQzMzM1ODNkMWU3YmY2NmNiNWJkNzVmYTc4OWVkODY0Mw==

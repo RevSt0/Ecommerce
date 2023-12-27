@@ -1,0 +1,10 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["store", "product", "invoice", "notification"],
+    "baseName": "workspaces",
+    "clientPackageManager": "npm",
+    "directoryPath": "./",
+    "dockerCompose": true,
+    "jhipsterVersion": "8.0.0"
+  }
+}

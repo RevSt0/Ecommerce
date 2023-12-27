@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 1,
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "product",
+    "buildTool": "maven",
+    "cacheProvider": "hazelcast",
+    "entities": ["Product", "ProductCategory", "ProductOrder", "OrderItem"],
+    "jwtSecretKey": "OTlhZWFhZTJiNGJiNzllZGM5MWU0MWI1MGMyYmU1OTVjZDM0NDllMzg4NzhkNGNkOGZiNTZiMzc5YjNlMzZmYzU5MzU5MTM0NjQwZDI3ZjlkNGQyYTFkY2MxZWU0YThiY2UwYmJhNGQ1ZmVhY2NmMDA2YzJmOTZkODJkN2MzZGU=",
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1703685320000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/emsi/product",
+    "packageName": "com.emsi.product",
+    "prodDatabaseType": "mysql",
+    "serverPort": "8081",
+    "serviceDiscoveryType": "consul",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "websocket": "no"
+  }
+}

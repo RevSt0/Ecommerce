@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 3,
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "notification",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "entities": ["Notification"],
+    "jwtSecretKey": "ZjhkMWY3OGE3NzE2ODE4ZjU1MjA5ZDA2MGZkZTJmOGE0ZDc2NGZlYWExYjZhZmE0MDhkNTk5Y2ViNDFhZjYzYjg3MmYxYTk1NzM0ZDBmMDQ0NmI3NTgyMWQ1MTBiMWE2NGQ3MjQ4MTRjNjU0YTM1YjBkMzA1OGY2NTgwMGE2Yjg=",
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1703685140000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/emsi/notification",
+    "packageName": "com.emsi.notification",
+    "prodDatabaseType": "mysql",
+    "serverPort": "8083",
+    "serviceDiscoveryType": "consul",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "websocket": "no"
+  }
+}

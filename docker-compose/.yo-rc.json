@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["store", "product", "invoice", "notification"],
+    "clusteredDbApps": [],
+    "deploymentType": "docker-compose",
+    "directoryPath": "../",
+    "dockerRepositoryName": "dockerecommerce",
+    "gatewayType": "SpringCloudGateway",
+    "jhipsterVersion": "8.0.0",
+    "jwtSecretKey": "YTFiNTRiZTQ5MGQzMzg5MmQwMDI2Y2E4ZWJlMTY4ZGYyNDIwNzdjMzA3MDU5NjRjYzEyOTQ4OTAwODIxYmNlMjc4ZmQzMzM1ODNkMWU3YmY2NmNiNWJkNzVmYTc4OWVkODY0Mw==",
+    "monitoring": "no",
+    "serviceDiscoveryType": "consul"
+  }
+}

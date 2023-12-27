@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 0,
+    "applicationType": "gateway",
+    "applications": {
+      "invoice": {
+        "applicationIndex": 2,
+        "serverPort": "8082"
+      },
+      "notification": {
+        "applicationIndex": 3,
+        "serverPort": "8083"
+      },
+      "product": {
+        "applicationIndex": 1,
+        "serverPort": "8081"
+      }
+    },
+    "authenticationType": "jwt",
+    "baseName": "store",
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "angular",
+    "devServerPort": 4200,
+    "entities": ["Customer", "Product", "ProductCategory", "ProductOrder", "OrderItem", "Invoice", "Shipment", "Notification"],
+    "jwtSecretKey": "Zjk1ZGQ3OGIyYTI4MzQxZTQ2ZWJiMGIxZWZmZmMxZDliNjI3NDNjMDdlNWRlYjA5ZTY4NmJlYjI3Y2MxNjNhOGY1ZTUxMDVkNmE5MzA4YzM0MTY3YmQ3NGI3MjQ2MWY3NDkwM2JiMzVlZTY1NTE4NGJmODA1YzYxMTM1ODg2OGQ=",
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1703685560000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/emsi/store",
+    "packageName": "com.emsi.store",
+    "prodDatabaseType": "mysql",
+    "reactive": true,
+    "serviceDiscoveryType": "consul",
+    "testFrameworks": ["gatling"]
+  }
+}

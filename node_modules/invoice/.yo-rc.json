@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "applicationIndex": 2,
+    "applicationType": "microservice",
+    "authenticationType": "jwt",
+    "baseName": "invoice",
+    "buildTool": "maven",
+    "entities": ["Invoice", "Shipment"],
+    "jwtSecretKey": "YTI4OWU3Nzc5NWRlZjU1YzhmMjk1MzFlMTFlZjE0NzAzYTMwNWU1MmMzOTM1ZTA2OGQ5MDlkMjcwYmI3NzhhYWIzNzBjYzI3MDU1ZDIxOGFhNzBkNmY3NWM0ODRhOGY2ZGU4OGUxOGNhYTRkNGY2YzM0NTIxNjFmOTQ3NTlmYTA=",
+    "languages": ["en", "fr"],
+    "lastLiquibaseTimestamp": 1703685200000,
+    "nativeLanguage": "en",
+    "packageFolder": "com/emsi/invoice",
+    "packageName": "com.emsi.invoice",
+    "prodDatabaseType": "mysql",
+    "serverPort": "8082",
+    "serviceDiscoveryType": "consul",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "websocket": "no"
+  }
+}
