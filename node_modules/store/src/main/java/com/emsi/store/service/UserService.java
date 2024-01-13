@@ -344,4 +344,8 @@ public class UserService {
     public Flux<String> getAuthorities() {
         return authorityRepository.findAll().map(Authority::getName);
     }
+
+
+
+
 }
