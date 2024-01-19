@@ -10,11 +10,10 @@ import { Login } from './login.model';
 
 @Injectable({ providedIn: 'root' })
 export class LoginService {
-
   constructor(
     private accountService: AccountService,
     private authServerProvider: AuthServerProvider,
-    private router: Router
+    private router: Router,
   ) {}
 
   login(credentials: Login): Observable<Account | null> {
@@ -29,10 +28,9 @@ export class LoginService {
             this.router.navigate(['/customer']);
           }
         }
-      })
+      }),
     );
   }
-
 
   logout(): void {
     this.authServerProvider.logout().subscribe({ complete: () => this.accountService.authenticate(null) });

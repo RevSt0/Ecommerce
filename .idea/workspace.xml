@@ -4,21 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d88ec6af-0ee9-4a9f-b04f-9017f283f8a5" name="Changes" comment="">
+    <list default="true" id="e9fa62ee-1c54-48a1-8c5a-29d8174fd7b3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Ecommerce.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/store/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/java/com/emsi/store/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/java/com/emsi/store/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/resources/config/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/layouts/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/layouts/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/home/home.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/login/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/webapp/app/login/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/store/src/main/webapp/i18n/en/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/store/src/main/webapp/i18n/en/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/store/sonar-project.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/java/com/emsi/store/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/emsi/store/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/resources/config/application-prod.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/webapp/app/layouts/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/webapp/app/layouts/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/webapp/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/webapp/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/webapp/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/webapp/app/home/home.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/webapp/app/login/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/webapp/app/login/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/src/main/webapp/i18n/en/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/webapp/i18n/en/home.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +38,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/store" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="KubernetesApiProvider">{
@@ -35,14 +47,10 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 6
+  &quot;associatedIndex&quot;: 0
 }</component>
-  <component name="ProjectId" id="2a81Le72cyZxDW3UYPYjEHkZYqp" />
+  <component name="ProjectId" id="2atJzXnmet98P9AL0Q0VJ1Gs1YJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,27 +58,95 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Docker.docker-compose: Compose Deployment.executor": "Run",
-    "Docker.docker/app.yml: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/adnan/Ecommerce",
+    "last_opened_file_path": "C:/Users/RevSt/OneDrive/Desktop/prg/Microservices_RabbitMq_Messagerie",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Docker.docker/app.yml: Compose Deployment">
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose: Compose Deployment">
+    <configuration name="InvoiceApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="invoice (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.invoice.InvoiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvoiceApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="invoice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.invoice.InvoiceApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="notification (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.notification.NotificationApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="notification" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.notification.NotificationApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.product.ProductApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.product.ProductApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="store (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.store.StoreApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="store" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emsi.store.StoreApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -85,17 +161,8 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker/app.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="store/src/main/docker/app.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker/app.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose: Compose Deployment" />
       </list>
     </recent_temporary>
@@ -103,21 +170,14 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d88ec6af-0ee9-4a9f-b04f-9017f283f8a5" name="Changes" comment="" />
-      <created>1703685339392</created>
+      <changelist id="e9fa62ee-1c54-48a1-8c5a-29d8174fd7b3" name="Changes" comment="" />
+      <created>1705132204606</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1703685339392</updated>
-      <workItem from="1703685342343" duration="2328000" />
-      <workItem from="1703687795901" duration="5430000" />
-      <workItem from="1703928711323" duration="56000" />
-      <workItem from="1703928815809" duration="898000" />
-      <workItem from="1703929909564" duration="3717000" />
-      <workItem from="1703946766581" duration="130000" />
-      <workItem from="1703950134960" duration="30000" />
-      <workItem from="1703950248322" duration="41000" />
-      <workItem from="1703951801531" duration="1851000" />
-      <workItem from="1703959890901" duration="7948000" />
+      <updated>1705132204606</updated>
+      <workItem from="1705132206189" duration="3234000" />
+      <workItem from="1705140335221" duration="107000" />
+      <workItem from="1705140510519" duration="36000" />
     </task>
     <servers />
   </component>
