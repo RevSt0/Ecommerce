@@ -9,8 +9,10 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.time.Duration;
 import java.util.List;
 import java.util.Objects;
+import java.util.concurrent.TimeoutException;
 import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 import org.reactivestreams.Publisher;
@@ -45,12 +47,22 @@ public class ModifyServersOpenApiFilter implements GlobalFilter, Ordered {
             DataBufferFactory bufferFactory = originalResponse.bufferFactory();
             ServerHttpResponseDecorator decoratedResponse = createModifyServersOpenApiInterceptor(path, originalResponse, bufferFactory);
 
-            // replace response with decorator
-            return chain.filter(exchange.mutate().response(decoratedResponse).build());
+            // Replace response with decorator
+            return chain.filter(exchange.mutate().response(decoratedResponse).build())
+                .timeout(Duration.ofSeconds(30)) // Adjust the timeout duration as needed
+                .onErrorResume(TimeoutException.class, e -> handleTimeoutError(exchange, originalResponse));
         } else {
             return chain.filter(exchange);
         }
     }
+
+
+    private Mono<Void> handleTimeoutError(ServerWebExchange exchange, ServerHttpResponse originalResponse) {
+        // Handle the timeout error, e.g., log an error message, return a custom response, etc.
+        log.error("Timeout error occurred during ModifyServersOpenApiFilter execution.");
+        return Mono.empty();
+    }
+
 
     @Override
     public int getOrder() {
