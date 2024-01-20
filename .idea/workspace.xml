@@ -7,7 +7,6 @@
     <list default="true" id="e9fa62ee-1c54-48a1-8c5a-29d8174fd7b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +207,7 @@
       <workItem from="1705683718783" duration="478000" />
       <workItem from="1705689766866" duration="2581000" />
       <workItem from="1705698537526" duration="3862000" />
-      <workItem from="1705709665492" duration="10791000" />
+      <workItem from="1705709665492" duration="11377000" />
     </task>
     <servers />
   </component>
