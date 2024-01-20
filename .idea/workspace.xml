@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9fa62ee-1c54-48a1-8c5a-29d8174fd7b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification/src/main/java/com/emsi/notification/config/WebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/main/java/com/emsi/notification/config/WebConfigurer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification/src/test/java/com/emsi/notification/config/WebConfigurerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker/sonar.yml: Compose Deployment">
+  <component name="RunManager" selected="Docker.docker-compose.store: Compose Deployment">
     <configuration name="InvoiceApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="invoice (1)" />
@@ -176,6 +178,19 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.store: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="store" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="docker/sonar.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
@@ -186,6 +201,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.store: Compose Deployment" />
         <item itemvalue="Docker.docker/sonar.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose: Compose Deployment (1)" />
         <item itemvalue="Docker.docker-compose: Compose Deployment" />
@@ -206,7 +222,7 @@
       <workItem from="1705683718783" duration="478000" />
       <workItem from="1705689766866" duration="2581000" />
       <workItem from="1705698537526" duration="3862000" />
-      <workItem from="1705709665492" duration="11478000" />
+      <workItem from="1705709665492" duration="12663000" />
     </task>
     <servers />
   </component>
