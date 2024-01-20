@@ -24,7 +24,7 @@
         <module name="store (1)" />
         <module name="store" />
       </profile>
-      <profile name="Annotation profile for Product" enabled="true">
+      <profile name="Annotation profile for Invoice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
