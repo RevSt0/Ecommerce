@@ -59,7 +59,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose: Compose Deployment (1)">
+  <component name="RunManager" selected="Docker.docker/sonar.yml: Compose Deployment">
     <configuration name="InvoiceApp (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="invoice (1)" />
@@ -174,8 +174,17 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="docker/sonar.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="store/src/main/docker/sonar.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker/sonar.yml: Compose Deployment" />
         <item itemvalue="Docker.docker-compose: Compose Deployment (1)" />
         <item itemvalue="Docker.docker-compose: Compose Deployment" />
       </list>
@@ -195,6 +204,7 @@
       <workItem from="1705683718783" duration="478000" />
       <workItem from="1705689766866" duration="2581000" />
       <workItem from="1705698537526" duration="3862000" />
+      <workItem from="1705709665492" duration="1726000" />
     </task>
     <servers />
   </component>
