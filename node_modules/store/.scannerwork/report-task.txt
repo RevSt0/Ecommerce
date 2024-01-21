@@ -1,0 +1,6 @@
+projectKey=store
+serverUrl=http://localhost:9001
+serverVersion=10.2.1.78527
+dashboardUrl=http://localhost:9001/dashboard?id=store
+ceTaskId=AY0mOPQ3OFssTohGJOB2
+ceTaskUrl=http://localhost:9001/api/ce/task?id=AY0mOPQ3OFssTohGJOB2
